@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+/* Top Nav */
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 20px;
+}
+
+.nav-right a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  background: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+/* Main */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.logo {
+  font-size: 60px;
+  color: #4285f4;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-box input:hover {
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 10px 15px;
+  border: none;
+  background: #f8f9fa;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons button:hover {
+  border: 1px solid #ccc;
+}
+
+/* Footer */
+.footer {
+  background: #f2f2f2;
+  padding: 10px 20px;
+  font-size: 14px;
+}
